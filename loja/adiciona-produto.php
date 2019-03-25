@@ -5,14 +5,14 @@ ini_set("display_errors", 1);
 
 <?php
 $nome = $_GET["nome"];
-$preco = $_GET ["preco"];
+$preco = $_GET["preco"];
 
 $query = "insert into produtos (nome, preco) values ('{$nome}', {$preco})";
 $conexao = mysqli_connect('localhost', 'root', '', 'loja-alura');
 mysqli_query($conexao, $query);
 mysqli_close($conexao);
 
-echo printf($conexao)
+
 ?>
 
 <?php
@@ -22,12 +22,12 @@ if (mysqli_query($conexao, $query)) {
     <?php
 } else {
     ?>
-    <p class="alert-danger">O produto <?= $nome; ?> n„o foi adicionado</p>
+    <p class="alert-danger">O produto <?= $nome; ?> n√£o foi adicionado</p>
     <?php
 }
 ?>
 
 
-<!--<p class = "alert-success">O produto <?= $nome; ?>, PreÁo R$<?= $preco; ?> Reais cadastrado com sucesso! </p>-->
+<!--<p class = "alert-success">O produto <1?= $nome; ?>, Pre√ßo R$<1?= $preco; ?> Reais cadastrado com sucesso! </p>-->
 
 <?php require ('./footer.php'); ?>
