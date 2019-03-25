@@ -1,14 +1,18 @@
 <?php require ('./header.php');
-error_reporting(0);
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 ?>
+
 <?php
 $nome = $_GET["nome"];
 $preco = $_GET ["preco"];
 
-$query = "insert into produtos (nome, preco) value('{$nome}', {$preco})";
+$query = "insert into produtos (nome, preco) values ('{$nome}', {$preco})";
 $conexao = mysqli_connect('localhost', 'root', '', 'loja-alura');
 mysqli_query($conexao, $query);
 mysqli_close($conexao);
+
+echo printf($conexao)
 ?>
 
 <?php
