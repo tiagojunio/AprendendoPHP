@@ -21,8 +21,8 @@
                     <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li><a class="nav-link" href="empresa">Empresa</a></li>
-                <li><a class="nav-link" href="produto-formulario">Produto Formulario</a></li>
-                <li><a class="nav-link" href="adiciona-produto">Adiciona Produto</a></li>
+                <li><a class="nav-link" href="adiciona-produto">Produtos</a></li>
+                <li><a class="nav-link" href="produto-formulario">Adiciona Produto</a></li>
                 <li><a class="nav-link" href="servicos">Serviços</a>
                 </li>
                 <li><a class="nav-link" href="produtos">Produtos</a>
