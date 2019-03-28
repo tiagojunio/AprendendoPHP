@@ -10,7 +10,7 @@
             Valor do Produto: <input type="number" name="preco">
         </div>
 
-        <button type="submit" class="btn btn-success">Cadastrar</button>
+        <button type="submit" class="btn btn-success tex-aling">Cadastrar</button>
     </form>
 </div>
 

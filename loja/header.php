@@ -17,16 +17,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
-                </li>
+                <li class="nav-item active"><a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a></li>
                 <li><a class="nav-link" href="empresa">Empresa</a></li>
-                <li><a class="nav-link" href="adiciona-produto">Produtos</a></li>
                 <li><a class="nav-link" href="produto-formulario">Adiciona Produto</a></li>
-                <li><a class="nav-link" href="servicos">Serviços</a>
-                </li>
-                <li><a class="nav-link" href="produtos">Produtos</a>
-                </li>
+                <li><a class="nav-link" href="servicos">Serviços</a></li>
+                <li><a class="nav-link" href="adiciona-produto">Produtos</a></li>
                 <li><a class="nav-link" href="contato">Contato</a>
                 </li>
             </ul>
@@ -36,5 +31,4 @@
     <body> 
         <div class="container">
             <div class="personaliza">
-                
-                
+
