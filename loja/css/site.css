@@ -1,0 +1,27 @@
+body{
+    margin-top: 50px;
+}
+.navbar {
+    margin-bottom: 120px;
+}
+
+.navbar-nav {
+    margin-left: 35%;
+}
+.personaliza{
+    padding: 40px 15px;
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #cccccc;
+    height: 50px;
+}
+
+footer p {
+    padding-top: 15px;
+}
